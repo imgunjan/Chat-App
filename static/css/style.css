@@ -1,0 +1,166 @@
+/* style.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content */
+.content {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Form */
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons div {
+    margin-bottom: 15px;
+}
+
+.buttons label {
+    font-weight: bold;
+}
+
+.buttons input[type="text"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.buttons .join {
+    display: flex;
+    align-items: center;
+}
+
+.buttons .join input[type="text"] {
+    flex: 1;
+}
+
+.buttons .join button {
+    margin-left: 10px;
+}
+
+.buttons .create {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons .create:hover {
+    background-color: #45a049;
+}
+
+.buttons button[type="submit"] {
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button[type="submit"]:hover {
+    background-color: #007299;
+}
+
+/* style.css */
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content */
+.messge-box {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Chat Room Heading */
+.messge-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Messages Container */
+.messages {
+    height: 300px; /* Set height as per your requirement */
+    overflow-y: auto;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Individual Message */
+.message {
+    margin-bottom: 10px;
+}
+
+/* Input Box and Send Button Container */
+.input {
+    display: flex;
+}
+
+/* Input Box */
+.input input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+/* Send Button */
+.input button {
+    background-color: #008cba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Send Button Hover */
+.input button:hover {
+    background-color: #007299;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.muted {
+    font-size: 10px;
+    color: darkgrey;
+}
